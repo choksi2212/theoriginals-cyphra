@@ -1,0 +1,94 @@
+{
+  "best_method": "soft_voting",
+  "best_metrics": {
+    "accuracy": 0.988342,
+    "precision": 0.969936,
+    "recall": 0.968992,
+    "f1": 0.969464,
+    "tp": 725124,
+    "tn": 3147686,
+    "fp": 22476,
+    "fn": 23204
+  },
+  "model_metrics": [
+    {
+      "name": "LGBM_Deep",
+      "accuracy": 0.988266,
+      "precision": 0.969253,
+      "recall": 0.969306,
+      "f1": 0.96928,
+      "tp": 725359,
+      "tn": 3147152,
+      "fp": 23010,
+      "fn": 22969,
+      "train_time": 640.5
+    },
+    {
+      "name": "LGBM_Wide",
+      "accuracy": 0.988179,
+      "precision": 0.968839,
+      "recall": 0.969276,
+      "f1": 0.969057,
+      "tp": 725336,
+      "tn": 3146833,
+      "fp": 23329,
+      "fn": 22992,
+      "train_time": 358.2
+    },
+    {
+      "name": "LGBM_Fast",
+      "accuracy": 0.988145,
+      "precision": 0.968771,
+      "recall": 0.969165,
+      "f1": 0.968968,
+      "tp": 725253,
+      "tn": 3146783,
+      "fp": 23379,
+      "fn": 23075,
+      "train_time": 200.7
+    },
+    {
+      "name": "CatBoost_Deep",
+      "accuracy": 0.988286,
+      "precision": 0.970187,
+      "recall": 0.968418,
+      "f1": 0.969302,
+      "tp": 724694,
+      "tn": 3147893,
+      "fp": 22269,
+      "fn": 23634,
+      "train_time": 320.1
+    }
+  ],
+  "soft_voting_metrics": {
+    "accuracy": 0.988342,
+    "precision": 0.969936,
+    "recall": 0.968992,
+    "f1": 0.969464,
+    "tp": 725124,
+    "tn": 3147686,
+    "fp": 22476,
+    "fn": 23204
+  },
+  "weighted_voting_metrics": {
+    "accuracy": 0.988342,
+    "precision": 0.969936,
+    "recall": 0.968992,
+    "f1": 0.969464,
+    "tp": 725124,
+    "tn": 3147686,
+    "fp": 22476,
+    "fn": 23204
+  },
+  "stacking_metrics": {
+    "accuracy": 0.985603,
+    "precision": 0.95317,
+    "recall": 0.972388,
+    "f1": 0.962683,
+    "tp": 727665,
+    "tn": 3134411,
+    "fp": 35751,
+    "fn": 20663
+  },
+  "total_training_time": 1519.5
+}
